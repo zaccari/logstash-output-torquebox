@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.authors       = ['Michael Zaccari']
   s.email         = ['michael.zaccari@accelerated.com']
 
-  s.summary       = 'Push events to TorqueBox messaging server (HornetQ)'
+  s.summary       = 'Push events to a TorqueBox messaging server (HornetQ)'
   s.description   = 'This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install logstash-output-torquebox. This gem is not a stand-alone program'
   s.homepage      = 'https://github.com/mzaccari/logstash-output-torquebox'
   s.license       = 'MIT'
