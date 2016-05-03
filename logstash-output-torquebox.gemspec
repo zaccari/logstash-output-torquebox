@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
   # Gem dependencies
   s.add_runtime_dependency 'logstash-core-plugin-api', '~> 1.0'
   s.add_runtime_dependency 'logstash-codec-plain'
+  s.add_runtime_dependency 'torquebox-messaging', '~> 3.1'
 
   s.add_development_dependency 'logstash-devutils'
 end
