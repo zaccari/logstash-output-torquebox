@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = 'logstash-output-torquebox'
-  s.version       = '1.0.0'
+  s.version       = '1.0.1'
   s.authors       = ['Michael Zaccari']
   s.email         = ['michael.zaccari@accelerated.com']
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.test_files = s.files.grep(%r{^(test|spec|features)/})
 
   # Special flag to let us know this is actually a logstash plugin
-  s.metadata = { 'logstash_plugin' => 'true', 'logstash_group' => 'input' }
+  s.metadata = { 'logstash_plugin' => 'true', 'logstash_group' => 'output' }
 
   # Gem dependencies
   s.add_runtime_dependency 'logstash-core-plugin-api', '~> 1.0'
